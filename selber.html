@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kontakt</title>
+    
+    <link rel="stylesheet" href="file:///C|/Users/Rebecca/SkyDrive/HTW/2. Semester/Interaktive Medien/03_2016_03_11_Formulare/style.css">
+		
+</head>
+
+<body>
+<div id="kontakt">
+	<h1>Kontakt</h1>
+	<!-- PH1 - START -->
+    
+    <form method="POST" action="http://mmp.mediologie.ch/im2/forms/ausgabe.php">
+		<div class="inputGroup">
+			<label class="field"> Anrede: </label>
+           	<input type="radio" name="gender" value="f"> Frau
+            <input type="radio" name="gender" value="m"> Herr
+            
+    
+        	<!-- PH2 -->
+			<div class="clear"></div>
+		</div>
+        
+		<div class="inputGroup">
+			<label class="field required">Vorname*:</label>
+            <input type="text" name="vorname" placeholder="Vorname" required>
+        
+        	<!-- PH3 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field required">Nachname*:</label>
+		    <input type="text" name="nachname" placeholder="Nachname" required>
+            
+            
+            <!-- PH4 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field required">Benutzername*:</label>
+		    <input type="text" name="benutzername" placeholder="Benutzername" required>
+            
+            <!-- PH5 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field required">Passwort*:</label>
+			    <input type="password" name="passwort" placeholder="Passwort" required>
+            <!-- PH6 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field required">E-Mail*:</label>
+			    <input type="email" name="e-mail" placeholder="ruedi.müller@gmx.ch" required >
+            <!-- PH7 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">Telefon:</label>
+            <input type="tel" name="telefon" >
+			<!-- PH8 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">Strasse:</label>
+            <input type="text" name="strasse" >
+			<!-- PH9 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">PLZ:</label>
+			<input type="text" name="plz" pattern="[0-9]{4}">
+            <!-- PH10 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">Ort:</label>
+            <input type="text" name="ort" >
+			<!-- PH11 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">Land: </label>
+            <select name="landauswahl">
+            	<option value="ch" selected> Schweiz </option>
+                <option value="de">Deutschland</option>
+               </select>
+            
+            
+			<!-- PH12 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">Informationen über:</label>
+			<input type="text" name="informationen" >
+            <!-- PH13 -->
+			<div class="clear"></div>
+		</div>
+		<div class="inputGroup">
+			<label class="field">Kommentar:</label>
+			<input type="text" name="kommentar" >
+            <!-- PH14 -->
+			<div class="clear"></div>
+		</div>
+		
+        <div class="inputGroup">
+			<input type="submit" value="Submit">
+            
+            <!-- PH15 -->
+			<div class="clear"></div>
+		</div>
+    </form>
+	<!-- PH1 - END -->
+</div>
+</body>
+</html>
